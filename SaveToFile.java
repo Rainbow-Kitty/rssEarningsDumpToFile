@@ -25,6 +25,8 @@ public class SaveToFile
     static FileWriter fw = null;
     static String buffer = "";
 
+    burp;
+    
     //
     //  This initializer reads single file into memory for purpose of not adding duplicates
     //
