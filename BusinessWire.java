@@ -69,7 +69,7 @@ public class BusinessWire
             String PublicationDate = tags.get( "pubDate" ).toString(),
                    Symbol = (tags.get( "description" ) != null) ? UtilityFunctions.GetSymbol( tags.get( "description" ).toString() ) : "",
                    Source = "bizwire",
-                   Link   = tags.get( "pheedo:origLink" ).toString(),
+                   Link   = tags.get( "link" /* pheedo:origLink" */ ).toString(),
                    Title  = tags.get( "title" ).toString();
 
             // make sure title fits into test.pr_queue
